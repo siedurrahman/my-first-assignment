@@ -2,16 +2,14 @@
 
 }
 /* common style */
-font-family: 'Babylonica', cursive;
+body{
+    font-family: 'Babylonica', cursive;
 font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
 
-/* top nav header section style */
-.first-heading{
-    width: 1920px;
-height: 850px;
-
 }
+/* top nav header section style */
+
 nav{
     display:flex;
     justify-content: space-around;
@@ -48,3 +46,35 @@ nav li:hover{
     cursor: pointer;
     transition: 0.2s;
 }
+ /* header related style */
+
+ .first-heading{
+background: rgba(229, 84, 115, 0.10);
+}
+.btn-color{
+    color: white;
+background-color: #E55473;
+font-size: 13px;
+border: none;
+border-radius: 5px;
+padding: 10px 15px;
+font-weight: 500;
+}
+  
+.banner{
+    padding: 20px 20px 20px 210px;
+display: flex;
+align-items: center;
+
+}
+.banner img{
+    width: 460px;
+    
+
+}
+.banner >h1{
+    
+
+}
+
+
