@@ -1,4 +1,6 @@
 *{
+margin: 0;
+padding: 0;
 
 }
 /* common style */
@@ -6,6 +8,9 @@ body{
     font-family: 'Babylonica', cursive;
 font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
+width: 1520px;
+height: 2500px;
+margin-right: none;
 
 }
 /* top nav header section style */
@@ -50,6 +55,7 @@ nav li:hover{
 
  .first-heading{
 background: rgba(229, 84, 115, 0.10);
+width: 100%;
 }
 .btn-color{
     color: white;
@@ -115,7 +121,27 @@ background: rgba(39, 39, 39, 0.05);
 }
 /* subscribe section */
 .subscribe{
-    background-image: url("Flower\ Asset");
+    background-image: url('Flower Asset/Rectangle\ 9.png');
+    text-align: center;
+    width: 1440px;
+    height: 300px;
+
+
 }
+
+/* footer */
+.footer{
+    text-align: center;
+     color: white;
+    background-color: #111010;
+}
+.footer small{
+    color: rgba(255, 255, 255, 0.40);
+   font-family: Lato;
+    font-size: 16px;
+   }
+   .footer-span{
+    color: white;
+   }
 
 
