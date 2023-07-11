@@ -89,12 +89,10 @@ align-items: center;
 }
 
 /* featured section style */
-.featured-section{
+.featured-content{
     text-align: center;
-    padding: 60px 0px;
-    background: #FFF;
 }
-.featured{
+.featured-img{
     
 }
 .floating{
@@ -130,9 +128,13 @@ figure{
 }
 .icon-section{
     text-align: center;
-    margin: 40px 100px;
-background: rgba(39, 39, 39, 0.05);
-margin-top: 20px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 60px 10px;
+    margin: 60px 130px;
+
+}
+.icon-section figure img, figcaption{
+    padding: 0 60px;
 }
 /* discount section */
 .discount{
