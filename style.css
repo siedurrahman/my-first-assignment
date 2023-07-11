@@ -1,0 +1,50 @@
+*{
+
+}
+/* common style */
+font-family: 'Babylonica', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+/* top nav header section style */
+.first-heading{
+    width: 1920px;
+height: 850px;
+
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+}
+.text-primary{
+    color: #cf143c;
+}
+
+.nav-title{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    align-items: center;
+    
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 15px;
+    font-size: 18px;
+    padding: 9px 5px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+nav li:hover{
+    background-color: #7b777786;
+    cursor: pointer;
+    transition: 0.2s;
+}
