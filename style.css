@@ -10,9 +10,9 @@ font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
 width: 1520px;
 height: 2500px;
-margin-right: none;
 
 }
+
 /* top nav header section style */
 
 nav{
@@ -51,7 +51,18 @@ nav li:hover{
     cursor: pointer;
     transition: 0.2s;
 }
+
  /* header related style */
+ p{
+    line-height: 30px;  
+  }
+ 
+ .banner-content p{
+    margin-top: 8px;
+ }
+ .banner-content button{
+    margin-top: 10px;
+ }
 
  .first-heading{
 background: rgba(229, 84, 115, 0.10);
@@ -68,13 +79,14 @@ font-weight: 500;
 }
   
 .banner{
-    padding: 20px 20px 20px 210px;
+    padding: 20px 20px 0px 225px;
 display: flex;
 align-items: center;
 
 }
 .banner img{
-    width: 460px;
+    width: 430px;
+     padding-left: 100px;
     
 
 }
