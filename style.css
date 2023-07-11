@@ -9,7 +9,7 @@ body{
 font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
 width: 1520px;
-height: 2500px;
+height: 2520px;
 
 }
 
@@ -38,7 +38,7 @@ nav > ul{
 }
 nav li{
     list-style: none;
-    margin-left: 15px;
+    margin-left: 18px;
     font-size: 18px;
     padding: 9px 5px;
 }
@@ -57,13 +57,10 @@ nav li:hover{
     line-height: 30px;  
   }
  
- .banner-content p{
-    margin-top: 8px;
- }
- .banner-content button{
+ .margin{
     margin-top: 10px;
  }
-
+ 
  .first-heading{
 background: rgba(229, 84, 115, 0.10);
 width: 100%;
@@ -94,19 +91,33 @@ align-items: center;
 /* featured section style */
 .featured-section{
     text-align: center;
+    padding: 60px 0px;
+    background: #FFF;
 }
-figure{
-display: inline-block;
+.featured{
+    
 }
-.featured-img1{
+.floating{
+    float: left;
+    width: 33%;
+}
+.featured::after{
+    content: ;
+    clear: both;
+    display: table;
+}
+
+.img1{
+    width: 310px;
     border-radius: 300px 300px 0px 0px;
 background: rgba(167, 33, 98, 0.15);
 }
-.featured-img2{
+.img2{
+
     border-radius: 300px 300px 0px 0px;
 background: rgba(5, 151, 160, 0.15);
 }
-.featured-img3{border-radius: 300px 300px 0px 0px;
+.img3{border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
 }
 .featured figcaption{
@@ -114,43 +125,71 @@ background: rgba(5, 151, 160, 0.15);
 }
 
 /* icon and support section */
+figure{
+    display: inline-block;
+}
 .icon-section{
     text-align: center;
     margin: 40px 100px;
 background: rgba(39, 39, 39, 0.05);
+margin-top: 20px;
 }
 /* discount section */
 .discount{
     display: flex;
     align-items: center;
     padding: 20px 20px 20px 210px;
+background: rgba(229, 84, 115, 0.05);
+
+}
+.discount img{
+    padding-left: 100px;
 }
  
 /* insta section */
 
 .insta{
     text-align: center;
+    padding: 50px;
+}
+.insta img{
+    margin-top: 10px;
+    width:250px ;
+    margin-left: 5px;
 }
 /* subscribe section */
 .subscribe{
     background-image: url('Flower Asset/Rectangle\ 9.png');
     text-align: center;
-    width: 1440px;
-    height: 300px;
+    background-repeat: no-repeat;
+    margin: 0px 248px;
+    padding:60px 0 ;
+    border-radius: none;
+
 
 
 }
+.email{
+    font-size: 20px;
+    padding: 3px ;
+
+    
+}
+
 
 /* footer */
 .footer{
     text-align: center;
      color: white;
     background-color: #111010;
+    padding: 60px 0;
+    margin-top: 60px;
 }
 .footer small{
     color: rgba(255, 255, 255, 0.40);
    font-family: Lato;
     font-size: 16px;
+    
    }
    .footer-span{
     color: white;
