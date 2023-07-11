@@ -98,28 +98,37 @@ align-items: center;
      padding: 60px 10px;
      background-color:white;
      text-align: center;
+     display: flex;
 }
 
 .img1{
-    width: 350px;
+    width: 300px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    margin-left: 8px;
-    padding: 0 15px;
+    margin-left: 20px;
+    padding: 0 25px;
+    height: 390px;
+width: 300px;
+
 }
 .img2{
 
     border-radius: 300px 300px 0px 0px;
 background: rgba(5, 151, 160, 0.15);
-margin-left: 8px;
-width: 350px;
-padding: 0 15px;
+margin-left: 20px;
+height: 390px;
+width: 300px;
+padding: 0 25px;
+background-size: 100px;
+
 }
 .img3{border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    margin-left: 8px;
-    width: 350px;
-    padding: 0 15px;
+    margin-left: 20px;
+    height: 390px;
+width: 300px;
+    padding: 0 25px;
+    
 }
 .featured-img figcaption{
     text-decoration: underline;
@@ -133,7 +142,7 @@ figure{
     text-align: center;
     background: rgba(39, 39, 39, 0.05);
     padding: 60px 10px;
-    margin: 60px 175px;
+    margin: 60px 230px 60px 185px;
 
 }
 .icon-section figure img, figcaption{
