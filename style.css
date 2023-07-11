@@ -72,9 +72,50 @@ align-items: center;
     
 
 }
-.banner >h1{
-    
 
+/* featured section style */
+.featured-section{
+    text-align: center;
+}
+figure{
+display: inline-block;
+}
+.featured-img1{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+}
+.featured-img2{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+}
+.featured-img3{border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.featured figcaption{
+    text-decoration: underline;
+}
+
+/* icon and support section */
+.icon-section{
+    text-align: center;
+    margin: 40px 100px;
+background: rgba(39, 39, 39, 0.05);
+}
+/* discount section */
+.discount{
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 20px 210px;
+}
+ 
+/* insta section */
+
+.insta{
+    text-align: center;
+}
+/* subscribe section */
+.subscribe{
+    background-image: url("Flower\ Asset");
 }
 
 
